@@ -30,6 +30,7 @@ class ExampleSubsystem : public Subsystem {
     void lock();
     void disablePID(); // PID starts off disabled
     void enablePID();
+
     static ExampleSubsystem* getInstance();
 };
 
